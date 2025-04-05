@@ -1,0 +1,11 @@
+
+
+:root {
+    --light-grey: #D3D3D3 ;
+    --main-font: ;
+
+}
+
+h4 {
+    color: var(--light-grey);
+}

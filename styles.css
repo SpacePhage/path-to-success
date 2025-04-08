@@ -2,10 +2,14 @@
 
 :root {
     --light-grey: #D3D3D3 ;
-    --main-font: ;
+    --main-font: Roboto, Sans Serif;
 
 }
 
 h4 {
     color: var(--light-grey);
+}
+
+main {
+    font-style: var(--main-font);
 }

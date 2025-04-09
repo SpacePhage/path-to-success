@@ -13,8 +13,17 @@
     --white: #ffffff;
 }
 
+body {
+    background-color: var(--lavender);
+}
+
+html {
+    background-color: var(--purple);
+}
+
 h1, h2 {
     font-family: Kavoon, sans-serif;
+    color: var(--white);
 }
 
 p {
@@ -35,6 +44,7 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+    color: var(--yellow);
 }
 
 h4 {

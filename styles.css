@@ -1,16 +1,14 @@
+/* Ryan Mayberry */
 
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 :root {
-    --light-grey: #D3D3D3 ;
-    --grey: #808080;
-    --main-font: Roboto, Sans Serif;
-
-}
-
-h4 {
-    color: var(--light-grey);
-}
-
-main {
-    font-style: var(--main-font);
+    --teal: #4ca7c0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-grey: #1E1E1E;
+    --white: #ffffff;
 }

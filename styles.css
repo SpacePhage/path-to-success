@@ -22,7 +22,9 @@ body {
     background-color: var(--purple);
     font-family: Inter, cursive;
     max-width: 450px;
-    margin: 0 auto;
+    margin: 0 auto 3rem auto;
+    padding: 0;
+
 }
 
 html {
@@ -75,8 +77,6 @@ footer a, footer p {
     color: var(--white);
 }
 
-
-
 td {
     background-color: var(--white);
 }
@@ -89,7 +89,6 @@ nav {
 nav li {
     background-color: var(--white);
     list-style: none;
-    color: var(--purple);
     max-width: 375px;
     margin-bottom: 0.50rem;
 }
@@ -102,6 +101,8 @@ nav ul {
 nav a {
     padding: 1rem 1rem;
     text-decoration: none;
+    color: var(--purple);
+    font-weight: bold;
 }
 
 header {
@@ -158,8 +159,7 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    gap: rem;
+    padding: 1rem 1rem;
 }
 
 article {

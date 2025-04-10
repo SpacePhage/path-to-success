@@ -79,6 +79,7 @@ footer a, footer p {
 
 td {
     background-color: var(--white);
+    text-align: center;
 }
 
 header h2,
@@ -122,6 +123,12 @@ header h2 {
 table {
     margin: 0 auto;
     background-color: var(--yellow);
+    width: 250px;
+    height: 150px;
+}
+
+th {
+    padding: 1rem 1rem;
 }
 
 #why-choose-us li {
@@ -168,4 +175,3 @@ article {
     max-width: 350px;
     margin: 0 auto 1.5rem auto
 }
-

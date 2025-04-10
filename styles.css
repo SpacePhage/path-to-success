@@ -14,11 +14,12 @@
 }
 
 body {
-    background-color: var(--lavender);
+    background-color: var(--purple);
+    font-family: Inter, cursive;
 }
 
 html {
-    background-color: var(--purple);
+    background-color: var(--lavender);
 }
 
 h1, h2 {
@@ -26,9 +27,6 @@ h1, h2 {
     color: var(--white);
 }
 
-p {
-    font-family: Inter, cursive;
-}
 
 h1 {
     font-size: 3em;
@@ -49,6 +47,51 @@ h3 {
 
 h4 {
     font-size: 1.15;
+    color: var(--purple);
+}
+
+#why-choose-us, #first-step {
+    background-color: var(--pink);
+}
+
+#first-step a {
+    background-color: var(--white);
+}
+
+footer a, footer p {
+    color: var(--white);
 }
 
 
+
+td {
+    background-color: var(--white);
+}
+
+header h2,
+nav {
+    background-color: var(--yellow);
+}
+
+nav li {
+    background-color: var(--white);
+    list-style: none;
+    color: var(--purple);
+}
+
+header {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    background-color: var(--yellow);
+}
+
+#why-choose-us li {
+    list-style: none;
+}
+
+#first-step p {
+    color: var(--white);
+}

@@ -175,3 +175,39 @@ article {
     max-width: 350px;
     margin: 0 auto 1.5rem auto
 }
+
+#why-choose-us ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+#why-choose-us li {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    max-width: 200px;
+    height: 75px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+}
+
+#why-choose-us li:nth-child(1){
+    background-color: var(--teal);
+}
+
+#why-choose-us li:nth-child(2) {
+    background-color: var(--purple);
+}
+
+#why-choose-us li:nth-child(3) {
+    background-color: var(--yellow);
+}
+
+#why-choose-us li:nth-child(4) {
+    background-color: var(--white);
+}
